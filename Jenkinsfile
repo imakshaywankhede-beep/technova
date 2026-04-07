@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/YOUR-USERNAME/infra-automation.git'
+                git 'https://github.com/imakshaywankhede-beep/technova.git'
             }
         }
 
