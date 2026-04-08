@@ -32,7 +32,7 @@ pipeline {
         stage('Terraform Apply') {
             steps {
                 dir('environments/dev') {
-                    sh 'terraform apply -auto-approve'
+                    sh 'terraform destroy -auto-approve'
                 }
             }
         }
