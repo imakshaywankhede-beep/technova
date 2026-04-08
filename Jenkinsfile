@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/imakshaywankhede-beep/technova.git'
+               git branch: 'main', url: 'https://github.com/imakshaywankhede-beep/technova.git'
             }
         }
 
